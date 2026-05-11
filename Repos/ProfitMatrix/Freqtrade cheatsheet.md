@@ -1,3 +1,0 @@
-### Download data
-
-### Run backtest

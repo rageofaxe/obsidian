@@ -4,24 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "619b99625b875737",
+        "id": "3fd9fc1fee009f6e",
         "type": "tabs",
         "children": [
           {
-            "id": "8622d837b601e99a",
+            "id": "21c840049c528e92",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "kanban",
               "state": {
-                "file": "Repos/ProfitMatrix/Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                "file": "Repos/ProfitMatrix/Freqtrade Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-trello",
+              "title": "Freqtrade Kanban"
+            }
+          }
+        ]
+      },
+      {
+        "id": "bbdef71cc652fb8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba36706a7eb4e5a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Repos/ProfitMatrix/Docs/Freqtrade cheatsheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Freqtrade cheatsheet"
             }
           }
         ]
@@ -97,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Repos/ProfitMatrix/Untitled.canvas",
+                "file": "Repos/ProfitMatrix/Docs/Freqtrade cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Freqtrade cheatsheet"
             }
           },
           {
@@ -172,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,29 +205,41 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "8622d837b601e99a",
+  "active": "ba36706a7eb4e5a2",
   "lastOpenFiles": [
-    "Repos/ProfitMatrix/Test.md",
-    "Repos/ProfitMatrix/Untitled.canvas",
+    "Repos/ProfitMatrix/Docs/Strategies name from project.md",
+    "Repos/ProfitMatrix/Docs/Freqtrade cheatsheet.md",
+    "Repos/ProfitMatrix/KanbanData/Make backtest report viewer.md",
+    "backtest-result-2026-05-11_20-01-27/backtest-result-2026-05-11_20-01-27_market_change.feather",
+    "backtest-result-2026-05-11_20-01-27/backtest-result-2026-05-11_20-01-27_StepDCAStrategy2.py",
+    "backtest-result-2026-05-11_20-01-27/backtest-result-2026-05-11_20-01-27_config.json",
+    "backtest-result-2026-05-11_20-01-27/backtest-result-2026-05-11_20-01-27.json",
+    "backtest-result-2026-05-11_20-01-27",
+    "backtest-result-2026-05-11_20-01-27.meta.json",
+    "backtest-result-2026-05-11_20-01-27.zip",
+    "Repos/ProfitMatrix/WEB Kanban.md",
+    "Repair",
+    "Repos/ProfitMatrix/Freqtrade Kanban.md",
+    "Repos/ProfitMatrix/KanbanData/Find EMA.md",
+    "Repos/ProfitMatrix/Docs/Coinlist.md",
     "Repos/ProfitMatrix/Checklist.md",
-    "Repos/ProfitMatrix/Freqtrade cheatsheet.md",
+    "Repos/ProfitMatrix/Docs",
+    "Repos/ProfitMatrix/KanbanData/__template.md",
+    "Repos/ProfitMatrix/KanbanData/Test1.md",
+    "Repos/ProfitMatrix/KanbanData",
+    "Repos/ProfitMatrix/Untitled.canvas",
+    "Repos/ProfitMatrix/Test.md",
     "Run.md",
-    "Repos/ProfitMatrix/Untitled.md",
     "Repos/Untitled.md",
-    "Repos/ProfitMatrix",
     "Untitled.md",
-    "Repos",
-    "Untitled.base",
-    "Work/Untitled.base",
     "Work/Fast notes.md",
     "Хатняя гаспадарка/Харчаваньне.md",
     "2026-06-11.md",
-    "Work",
     "Welcome.md",
-    "Untitled.canvas",
-    "Хатняя гаспадарка"
+    "Untitled.canvas"
   ]
 }

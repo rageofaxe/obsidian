@@ -1,0 +1,10 @@
+1. BTC
+2. ETH
+3. BNB
+4. SOL
+5. TRX
+6. DOGE
+7. ADA
+8. BCH
+9. LTC
+10. AVAX
