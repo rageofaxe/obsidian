@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "2b9f4e03693c4fbc",
+    "type": "split",
+    "children": [
+      {
+        "id": "619b99625b875737",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8622d837b601e99a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Repos/ProfitMatrix/Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "73b274ace61a007d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d7ece22ee3f0fe0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "724fc8f1af6b3697",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "dc3b61032e0467b5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "435f56e72eb6c792",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6c569aa710eb7f19",
+    "type": "split",
+    "children": [
+      {
+        "id": "f02a55ab3f176a58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "880e2d5053715bee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Repos/ProfitMatrix/Untitled.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "599cc5a5514af285",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.base",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "af1624b5b7a2e9f2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fae2b2de122828e1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ca2c0ae52dddcfcd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "8622d837b601e99a",
+  "lastOpenFiles": [
+    "Repos/ProfitMatrix/Checklist.md",
+    "Repos/ProfitMatrix/Untitled.canvas",
+    "Repos/ProfitMatrix/Freqtrade cheatsheet.md",
+    "Run.md",
+    "Repos/ProfitMatrix/Untitled.md",
+    "Repos/Untitled.md",
+    "Repos/ProfitMatrix",
+    "Untitled.md",
+    "Repos",
+    "Untitled.base",
+    "Work/Untitled.base",
+    "Work/Fast notes.md",
+    "Хатняя гаспадарка/Харчаваньне.md",
+    "2026-06-11.md",
+    "Work",
+    "Welcome.md",
+    "Untitled.canvas",
+    "Хатняя гаспадарка"
+  ]
+}
