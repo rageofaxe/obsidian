@@ -8,45 +8,69 @@
         "type": "tabs",
         "children": [
           {
-            "id": "21c840049c528e92",
+            "id": "0717457f3f06aae6",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Repos/ProfitMatrix/Freqtrade Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Freqtrade Kanban"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
-          }
-        ]
-      },
-      {
-        "id": "bbdef71cc652fb8b",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "ba36706a7eb4e5a2",
+            "id": "7bd8f2b52e7c8a70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Repos/ProfitMatrix/Docs/Freqtrade cheatsheet.md",
+                "file": "REPL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Freqtrade cheatsheet"
+              "title": "REPL"
+            }
+          },
+          {
+            "id": "36d90e5d84aa9272",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-pomodoro-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Pomodoro"
+            }
+          },
+          {
+            "id": "e5b3287f7b9f438b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/AutoResearch.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AutoResearch"
+            }
+          },
+          {
+            "id": "016011d8bcfa2490",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work/Works Fast notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Works Fast notes"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,12 +122,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "1a28437d3f5d289b",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 394.5086555480957
   },
   "right": {
     "id": "6c569aa710eb7f19",
@@ -119,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Repos/ProfitMatrix/Docs/Freqtrade cheatsheet.md",
+                "file": "REPL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +163,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Freqtrade cheatsheet"
+              "title": "Backlinks for REPL"
             }
           },
           {
@@ -202,44 +236,115 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
+      "daily-notes:Open today's daily note": true,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "command-palette:Open command palette": true,
       "bases:Create new base": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "excel:Create Excel File": false,
+      "tasknotes:Open mini calendar view": false,
+      "tasknotes:Open calendar view": false,
+      "tasknotes:Open tasks view": false,
+      "tasknotes:Open agenda view": false,
+      "tasknotes:Open Kanban board": false,
+      "tasknotes:Open Pomodoro timer": false,
+      "tasknotes:Open Pomodoro statistics": false,
+      "tasknotes:Create new task": false
     }
   },
-  "active": "ba36706a7eb4e5a2",
+  "floating": {
+    "id": "d2fd38f819dc4812",
+    "type": "floating",
+    "children": [
+      {
+        "id": "d3bd8d8993658df2",
+        "type": "window",
+        "children": [
+          {
+            "id": "749d6ddb4cde6a79",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d662dad32db1e966",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://github.com/callumalpass/tasknotes",
+                    "title": "GitHub - callumalpass/tasknotes: Task and time-tracking management with calendar integration for Obsidian · GitHub",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "GitHub - callumalpass/tasknotes: Task and time-tracking management with calendar integration for Obsidian · GitHub"
+                }
+              },
+              {
+                "id": "cd57376ede384c22",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://tasknotes.dev/",
+                    "title": "TaskNotes Documentation — TaskNotes",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "TaskNotes Documentation — TaskNotes"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 800,
+        "maximize": true,
+        "zoom": 1.5
+      }
+    ]
+  },
+  "active": "016011d8bcfa2490",
   "lastOpenFiles": [
-    "Repos/ProfitMatrix/Docs/Strategies name from project.md",
-    "Repos/ProfitMatrix/Docs/Freqtrade cheatsheet.md",
-    "Repos/ProfitMatrix/KanbanData/Make backtest report viewer.md",
-    "backtest-result-2026-05-11_20-01-27/backtest-result-2026-05-11_20-01-27_market_change.feather",
-    "backtest-result-2026-05-11_20-01-27/backtest-result-2026-05-11_20-01-27_StepDCAStrategy2.py",
-    "backtest-result-2026-05-11_20-01-27/backtest-result-2026-05-11_20-01-27_config.json",
-    "backtest-result-2026-05-11_20-01-27/backtest-result-2026-05-11_20-01-27.json",
-    "backtest-result-2026-05-11_20-01-27",
-    "backtest-result-2026-05-11_20-01-27.meta.json",
-    "backtest-result-2026-05-11_20-01-27.zip",
-    "Repos/ProfitMatrix/WEB Kanban.md",
-    "Repair",
-    "Repos/ProfitMatrix/Freqtrade Kanban.md",
-    "Repos/ProfitMatrix/KanbanData/Find EMA.md",
-    "Repos/ProfitMatrix/Docs/Coinlist.md",
-    "Repos/ProfitMatrix/Checklist.md",
-    "Repos/ProfitMatrix/Docs",
-    "Repos/ProfitMatrix/KanbanData/__template.md",
-    "Repos/ProfitMatrix/KanbanData/Test1.md",
-    "Repos/ProfitMatrix/KanbanData",
-    "Repos/ProfitMatrix/Untitled.canvas",
-    "Repos/ProfitMatrix/Test.md",
-    "Run.md",
-    "Repos/Untitled.md",
-    "Untitled.md",
-    "Work/Fast notes.md",
-    "Хатняя гаспадарка/Харчаваньне.md",
-    "2026-06-11.md",
-    "Welcome.md",
-    "Untitled.canvas"
+    "Work/Дашборд.md",
+    "Work/Calendar.base",
+    "Work/notes/Main list.md",
+    "Work/notes/Something.md",
+    "Work/notes",
+    "Work/Kanban.md",
+    "TaskNotes/Views/calendar-default.base",
+    "calendar-default 1.base",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "Untitled Kanban.md",
+    "TaskNotes/Views/tasks-default.base",
+    "AI/AutoResearch.md",
+    "AI",
+    "Клямбі/Календарь (1-3 месяца).md",
+    "Untitled Kanban 1.md",
+    "Клямбі/Прививка от гепатита B сделана в первые 12 часов жизни.md",
+    "Клямбі/Комплексная прививка АКДС (1) дифтерия, столбняк, коклюш, гемофильная инфекция, полиомиелит.md",
+    "Клямбі/Неонатальный скрининг взят анализ крови из пяточки на 4-й день (или раньше, если выписали) для проверки на врожденные заболевания.md",
+    "TaskNotes/Views/relationships.base",
+    "Клямбі/Контакт глаза–глаза тренировка зрительного контакта, разговор с ребёнком, лёгкая стимуляция. web7.md",
+    "Клямбі/Вакцина БЦЖ‑М (на ‑й день жизни). web3web9.md",
+    "Клямбі/Развитие мелкой моторики.md",
+    "Клямбі/Проверка состояния кожи сухость, раздражения, опрелости — при необходимости коррекция кремовчастоты смены подгузников. web2.md",
+    "Клямбі/Подготовка ко следующему визиту к врачупрививке (если график 3‑месячной прививки приходится на 12‑ю неделю). web3web6.md",
+    "Клямбі/Продолжение развития речевых реакций.md",
+    "Клямбі/Плановый осмотр педиатра.md",
+    "Клямбі/Прививки (в зависимости от графика).md",
+    "Клямбі/Вакцина против гепатита B (3‑я доза, обычно в 3 месяца). web3web6.md",
+    "Клямбі/Повторная доза АКДС (2‑я доза). web3web6.md",
+    "Клямбі/Наблюдение за скачком роста.md",
+    "Клямбі/Кормление по требованию, без строгого расписания.md",
+    "Клямбі/Сон безопасное положение на спине, чистая и неперегревающая одежда. web5web7.md",
+    "Клямбі/Гигиена ежедневное купание или обтирание, обработка пупка (до заживления), смена подгузников. web2.md",
+    "Клямбі",
+    "TaskNotes/Views/agenda-default.base",
+    "Untitled.canvas",
+    "Repos/ProfitMatrix/Untitled.canvas"
   ]
 }
