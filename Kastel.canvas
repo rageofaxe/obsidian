@@ -1,0 +1,16 @@
+{
+  "edges": [
+  ],
+  "nodes": [
+    {
+      "height": 60,
+      "id": "1211825854db09e9",
+      "text": "",
+      "type": "text",
+      "width": 250,
+      "x": -5,
+      "y": -141,
+      "zettelflowConfig": "{\"root\":true,\"actions\":[{\"type\":\"prompt\",\"hasUI\":true,\"id\":\"91a8d169-d5dc-4796-b3cb-e860b576de4e\",\"zone\":\"frontmatter\"}],\"label\":\"\",\"childrenHeader\":\"\"}"
+    }
+  ]
+}

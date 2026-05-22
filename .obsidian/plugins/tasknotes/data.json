@@ -323,7 +323,7 @@
     "timeRemaining": 1500,
     "nextSessionType": "work"
   },
-  "lastPomodoroDate": "2026-05-14",
+  "lastPomodoroDate": "2026-05-18",
   "pomodoroHistory": [
     {
       "id": "1778828714700",
@@ -352,6 +352,260 @@
           "endTime": "2026-05-15T10:36:18.213+03:00"
         }
       ]
+    },
+    {
+      "id": "1778838055590",
+      "startTime": "2026-05-15T12:40:55.590+03:00",
+      "endTime": "2026-05-15T13:05:55.601+03:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "taskPath": "Work/notes/Дашборд UI.md",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-05-15T12:40:55.590+03:00",
+          "endTime": "2026-05-15T13:05:55.601+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1778839556628",
+      "startTime": "2026-05-15T13:05:56.628+03:00",
+      "endTime": "2026-05-15T13:10:56.633+03:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-05-15T13:05:56.628+03:00",
+          "endTime": "2026-05-15T13:10:56.633+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1778840388002",
+      "startTime": "2026-05-15T13:19:48.002+03:00",
+      "endTime": "2026-05-15T13:44:48.008+03:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "taskPath": "Work/notes/Собрать билд.md",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-05-15T13:19:48.002+03:00",
+          "endTime": "2026-05-15T13:44:48.008+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1778841889025",
+      "startTime": "2026-05-15T13:44:49.025+03:00",
+      "endTime": "2026-05-15T13:49:49.031+03:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-05-15T13:44:49.025+03:00",
+          "endTime": "2026-05-15T13:49:49.031+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1779089753523",
+      "startTime": "2026-05-18T10:35:53.523+03:00",
+      "endTime": "2026-05-18T11:00:53.537+03:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "taskPath": "Work/notes/после логина сразу недоступны отчеты.md",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-05-18T10:35:53.523+03:00",
+          "endTime": "2026-05-18T11:00:53.537+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1779091254552",
+      "startTime": "2026-05-18T11:00:54.552+03:00",
+      "endTime": "2026-05-18T11:05:54.558+03:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-05-18T11:00:54.552+03:00",
+          "endTime": "2026-05-18T11:05:54.558+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1779180728929",
+      "startTime": "2026-05-19T11:52:08.929+03:00",
+      "endTime": "2026-05-19T17:33:30.734+03:00",
+      "plannedDuration": 25,
+      "type": "work",
+      "taskPath": "Work/notes/Написать тестовый сервер.md",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-05-19T11:52:08.929+03:00",
+          "endTime": "2026-05-19T11:52:17.322+03:00"
+        },
+        {
+          "startTime": "2026-05-19T17:08:38.707+03:00",
+          "endTime": "2026-05-19T17:33:30.734+03:00"
+        }
+      ]
+    },
+    {
+      "id": "1779201211759",
+      "startTime": "2026-05-19T17:33:31.759+03:00",
+      "endTime": "2026-05-19T17:38:31.762+03:00",
+      "plannedDuration": 5,
+      "type": "short-break",
+      "completed": true,
+      "activePeriods": [
+        {
+          "startTime": "2026-05-19T17:33:31.759+03:00",
+          "endTime": "2026-05-19T17:38:31.762+03:00"
+        }
+      ]
     }
-  ]
+  ],
+  "modalFieldsConfig": {
+    "version": 1,
+    "fields": [
+      {
+        "id": "title",
+        "fieldType": "core",
+        "group": "basic",
+        "displayName": "Title",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true,
+        "required": true
+      },
+      {
+        "id": "details",
+        "fieldType": "core",
+        "group": "basic",
+        "displayName": "Details",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "contexts",
+        "fieldType": "core",
+        "group": "metadata",
+        "displayName": "Contexts",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true
+      },
+      {
+        "id": "tags",
+        "fieldType": "core",
+        "group": "metadata",
+        "displayName": "Tags",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "time-estimate",
+        "fieldType": "core",
+        "group": "metadata",
+        "displayName": "Time Estimate",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 2,
+        "enabled": true
+      },
+      {
+        "id": "projects",
+        "fieldType": "organization",
+        "group": "organization",
+        "displayName": "Projects",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true
+      },
+      {
+        "id": "subtasks",
+        "fieldType": "organization",
+        "group": "organization",
+        "displayName": "Subtasks",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      },
+      {
+        "id": "blocked-by",
+        "fieldType": "dependency",
+        "group": "dependencies",
+        "displayName": "Blocked By",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 0,
+        "enabled": true
+      },
+      {
+        "id": "blocking",
+        "fieldType": "dependency",
+        "group": "dependencies",
+        "displayName": "Blocking",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 1,
+        "enabled": true
+      }
+    ],
+    "groups": [
+      {
+        "id": "basic",
+        "displayName": "Basic Information",
+        "order": 0,
+        "collapsible": false,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "metadata",
+        "displayName": "Metadata",
+        "order": 1,
+        "collapsible": true,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "organization",
+        "displayName": "Organization",
+        "order": 2,
+        "collapsible": true,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "dependencies",
+        "displayName": "Dependencies",
+        "order": 3,
+        "collapsible": true,
+        "defaultCollapsed": false
+      },
+      {
+        "id": "custom",
+        "displayName": "Custom Fields",
+        "order": 4,
+        "collapsible": true,
+        "defaultCollapsed": false
+      }
+    ]
+  },
+  "lastSelectedTaskPath": "Work/notes/Написать тестовый сервер.md"
 }

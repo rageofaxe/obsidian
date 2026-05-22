@@ -1,0 +1,6 @@
+- [[Add real data to Profit Matrix]]
+	- [[Prepare EMA3 for ..DocsCoinlist(Coinlist)]]
+	- [[Prepare DCA]]
+	- [[Prepare HODL]]
+- [[backtesting-report from ProfitMatrix]]
+- [[Make backtesting-report dynamically]]

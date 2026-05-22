@@ -1,3 +1,6 @@
+filters:
+  and:
+    - file.hasTag("task")
 formulas:
   priorityWeight: if(priority=="none",0,if(priority=="low",1,if(priority=="normal",2,if(priority=="high",3,999))))
   daysUntilDue: if(due, ((number(date(due)) - number(today())) / 86400000).floor(), null)
@@ -39,11 +42,15 @@ formulas:
   timeTrackedFormatted: if(timeEntries, if(list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) >= 60, (list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) / 60).floor() + "h " + (list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) % 60).round() + "m", list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0).round() + "m"), "0m")
   dueDateDisplay: if(!due, "", if(date(due).date() == today(), "Today", if(date(due).date() == today() + "1d", "Tomorrow", if(date(due).date() == today() - "1d", "Yesterday", if(date(due) < today(), formula.daysUntilDue * -1 + "d ago", if(date(due).date() <= today() + "7d", date(due).format("ddd"), date(due).format("MMM D")))))))
 views:
-  - type: tasknotesCalendar
-    name: Calendar
+  - type: tasknotesKanban
+    name: Kanban Board
     filters:
       and:
-        - file.folder == "Work/notes"
+        - file.inFolder("PersonalTracker/notes")
+        - '!file.tags.contains("archived")'
+    groupBy:
+      property: status
+      direction: ASC
     order:
       - status
       - priority
@@ -57,17 +64,23 @@ views:
       - recurrence
       - complete_instances
       - file.tasks
+    sort:
+      - property: tasknotes_manual_order
+        direction: DESC
     options:
-      showScheduled: true
-      showDue: true
-      showRecurring: true
-      showTimeEntries: true
-      showTimeblocks: true
-      showPropertyBasedEvents: true
-      calendarView: timeGridWeek
-      customDayCount: 3
-      firstDay: 0
-      slotMinTime: 06:00:00
-      slotMaxTime: 22:00:00
-      slotDuration: 00:30:00
-    calendarView: timeGridWeek
+      columnWidth: 280
+      hideEmptyColumns: false
+    columnOrder: '{"note.status":["open","in-progress","done","none"]}'
+  - type: tasknotesKanban
+    name: Archived
+    filters:
+      and:
+        - file.inFolder("Work")
+        - file.tags.containsAny("archived")
+    groupBy:
+      property: status
+      direction: ASC
+    columnOrder: '{"note.status":["open","in-progress","done","none"]}'
+  - type: tasknotesCalendar
+    name: View
+    calendarView: dayGridMonth

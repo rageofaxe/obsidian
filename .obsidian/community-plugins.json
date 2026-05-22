@@ -1,7 +1,10 @@
 [
   "execute-code",
-  "make-md",
   "tasknotes",
   "obsidian-excalidraw-plugin",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "make-md",
+  "ytranscript",
+  "zettelflow",
+  "notebook-navigator"
 ]

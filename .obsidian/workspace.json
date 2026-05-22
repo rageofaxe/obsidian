@@ -4,73 +4,120 @@
     "type": "split",
     "children": [
       {
-        "id": "3fd9fc1fee009f6e",
-        "type": "tabs",
+        "id": "747e6a42fe6305ea",
+        "type": "split",
         "children": [
           {
-            "id": "0717457f3f06aae6",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "7bd8f2b52e7c8a70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "REPL.md",
-                "mode": "source",
-                "source": false
+            "id": "1c735e2838358132",
+            "type": "tabs",
+            "dimension": 56.9078947368421,
+            "children": [
+              {
+                "id": "936c31158884bdb7",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "Work/Work Kanban.base",
+                    "viewName": "ControlApp"
+                  },
+                  "pinned": true,
+                  "icon": "tasknotes-simple",
+                  "title": "Work Kanban"
+                }
               },
-              "icon": "lucide-file",
-              "title": "REPL"
-            }
-          },
-          {
-            "id": "36d90e5d84aa9272",
-            "type": "leaf",
-            "state": {
-              "type": "tasknotes-pomodoro-view",
-              "state": {},
-              "icon": "clock",
-              "title": "Pomodoro"
-            }
-          },
-          {
-            "id": "e5b3287f7b9f438b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/AutoResearch.md",
-                "mode": "preview",
-                "source": false
+              {
+                "id": "fe451d84ba6e6e09",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "PersonalTracker/Personal Kanban.base",
+                    "viewName": "Kanban Board"
+                  },
+                  "pinned": true,
+                  "icon": "tasknotes-simple",
+                  "title": "Personal Kanban"
+                }
               },
-              "icon": "lucide-file",
-              "title": "AutoResearch"
-            }
+              {
+                "id": "3701dbd4fc54f542",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Клямбі/Чеклист (1-3 месяца).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Чеклист (1-3 месяца)"
+                }
+              },
+              {
+                "id": "39c337085e520d2f",
+                "type": "leaf",
+                "state": {
+                  "type": "mk-space",
+                  "state": {
+                    "path": "Repos/ProfitMatrix"
+                  },
+                  "icon": "lucide-file",
+                  "title": "ProfitMatrix"
+                }
+              }
+            ],
+            "currentTab": 3
           },
           {
-            "id": "016011d8bcfa2490",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work/Works Fast notes.md",
-                "mode": "source",
-                "source": false
+            "id": "e8085cb2877216d6",
+            "type": "tabs",
+            "dimension": 43.09210526315789,
+            "children": [
+              {
+                "id": "edfa6aa5b8b2ac0c",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "tasknotes-pomodoro-view",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "clock",
+                  "title": "Pomodoro"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Works Fast notes"
-            }
+              {
+                "id": "dd425c93bbb5ce74",
+                "type": "leaf",
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "TaskNotes/Views/kanban-default.base",
+                    "viewName": "Kanban Board"
+                  },
+                  "icon": "tasknotes-simple",
+                  "title": "kanban-default"
+                }
+              },
+              {
+                "id": "a55b4847441fb14f",
+                "type": "leaf",
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "Work/Work Kanban.base",
+                    "viewName": "Kanban Board"
+                  },
+                  "icon": "tasknotes-simple",
+                  "title": "Work Kanban"
+                }
+              }
+            ]
           }
         ],
-        "currentTab": 4
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -124,7 +171,7 @@
             }
           },
           {
-            "id": "1a28437d3f5d289b",
+            "id": "495361753d18c5f4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -132,12 +179,23 @@
               "icon": "layout-grid",
               "title": "Navigator"
             }
+          },
+          {
+            "id": "848624cd4232cf37",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 394.5086555480957
+    "width": 766.5086555480957
   },
   "right": {
     "id": "6c569aa710eb7f19",
@@ -242,7 +300,6 @@
       "bases:Create new base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
-      "excel:Create Excel File": false,
       "tasknotes:Open mini calendar view": false,
       "tasknotes:Open calendar view": false,
       "tasknotes:Open tasks view": false,
@@ -250,101 +307,50 @@
       "tasknotes:Open Kanban board": false,
       "tasknotes:Open Pomodoro timer": false,
       "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false
+      "tasknotes:Create new task": false,
+      "zettelflow:Create a new Zettel Note": false,
+      "notebook-navigator:Notebook Navigator": false
     }
   },
-  "floating": {
-    "id": "d2fd38f819dc4812",
-    "type": "floating",
-    "children": [
-      {
-        "id": "d3bd8d8993658df2",
-        "type": "window",
-        "children": [
-          {
-            "id": "749d6ddb4cde6a79",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d662dad32db1e966",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://github.com/callumalpass/tasknotes",
-                    "title": "GitHub - callumalpass/tasknotes: Task and time-tracking management with calendar integration for Obsidian · GitHub",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "GitHub - callumalpass/tasknotes: Task and time-tracking management with calendar integration for Obsidian · GitHub"
-                }
-              },
-              {
-                "id": "cd57376ede384c22",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://tasknotes.dev/",
-                    "title": "TaskNotes Documentation — TaskNotes",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "TaskNotes Documentation — TaskNotes"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1024,
-        "height": 800,
-        "maximize": true,
-        "zoom": 1.5
-      }
-    ]
-  },
-  "active": "016011d8bcfa2490",
+  "active": "848624cd4232cf37",
   "lastOpenFiles": [
-    "Work/Дашборд.md",
+    "Repos/ProfitMatrix/Clients.md",
     "Work/Calendar.base",
-    "Work/notes/Main list.md",
-    "Work/notes/Something.md",
-    "Work/notes",
-    "Work/Kanban.md",
-    "TaskNotes/Views/calendar-default.base",
-    "calendar-default 1.base",
-    "TaskNotes/Views/mini-calendar-default.base",
-    "Untitled Kanban.md",
+    "PersonalTracker/Personal Kanban.base",
+    "PersonalTracker/notes/Untitled.md",
+    "PersonalTracker/notes/PersonalTracker.md",
     "TaskNotes/Views/tasks-default.base",
+    "Work/Work Kanban.base",
+    "PersonalTracker/notes/Позвонить в Островец ОГИМ.md",
+    "Клямбі/Чеклист (1-3 месяца).md",
+    "Kastel.canvas",
     "AI/AutoResearch.md",
-    "AI",
-    "Клямбі/Календарь (1-3 месяца).md",
-    "Untitled Kanban 1.md",
-    "Клямбі/Прививка от гепатита B сделана в первые 12 часов жизни.md",
-    "Клямбі/Комплексная прививка АКДС (1) дифтерия, столбняк, коклюш, гемофильная инфекция, полиомиелит.md",
-    "Клямбі/Неонатальный скрининг взят анализ крови из пяточки на 4-й день (или раньше, если выписали) для проверки на врожденные заболевания.md",
-    "TaskNotes/Views/relationships.base",
-    "Клямбі/Контакт глаза–глаза тренировка зрительного контакта, разговор с ребёнком, лёгкая стимуляция. web7.md",
-    "Клямбі/Вакцина БЦЖ‑М (на ‑й день жизни). web3web9.md",
-    "Клямбі/Развитие мелкой моторики.md",
-    "Клямбі/Проверка состояния кожи сухость, раздражения, опрелости — при необходимости коррекция кремовчастоты смены подгузников. web2.md",
-    "Клямбі/Подготовка ко следующему визиту к врачупрививке (если график 3‑месячной прививки приходится на 12‑ю неделю). web3web6.md",
-    "Клямбі/Продолжение развития речевых реакций.md",
-    "Клямбі/Плановый осмотр педиатра.md",
-    "Клямбі/Прививки (в зависимости от графика).md",
-    "Клямбі/Вакцина против гепатита B (3‑я доза, обычно в 3 месяца). web3web6.md",
-    "Клямбі/Повторная доза АКДС (2‑я доза). web3web6.md",
-    "Клямбі/Наблюдение за скачком роста.md",
-    "Клямбі/Кормление по требованию, без строгого расписания.md",
-    "Клямбі/Сон безопасное положение на спине, чистая и неперегревающая одежда. web5web7.md",
-    "Клямбі/Гигиена ежедневное купание или обтирание, обработка пупка (до заживления), смена подгузников. web2.md",
-    "Клямбі",
-    "TaskNotes/Views/agenda-default.base",
-    "Untitled.canvas",
+    "Клямбі/Calendar.base",
+    "Work/notes/archive",
+    "Tags/#task",
+    "Tags",
+    "Work/notes/Work.md",
+    "Work/notes/тикет на свободное время.md",
+    "Work/notes/дашборд верстка.md",
+    "READER.md",
+    "Work/notes/маркер направления движения, не работает, постоянно в одном направлении показывает.md",
+    "REPL.md",
+    "Repos/ProfitMatrix/tasks/ProfitMatrix.md",
+    "Work/notes/Написать тестовый сервер.md",
+    "Work/notes/Проверить iOS.md",
+    "Work/notes/Проверить андроид.md",
+    "Repos/ProfitMatrix/Kanban.base",
+    "PersonalTracker/notes/Позвонить в СделайСам.md",
+    "PersonalTracker/notes/Повзонить в Михалишки.md",
+    "TaskNotes/Tasks/Консультация у хирурга (Зубной).md",
+    "PersonalTracker/notes/Купить аккум для ryobi.md",
+    "Хатняя гаспадарка/Харчаваньне.md",
+    "Work/notes/телефон при включенном контроле засыпает.md",
+    "Work/notes/автоматически не обновляется.md",
+    "Work/notes/маркер съезжает с экрана.md",
+    "Repos/DIY/Кофр  Короб-органайзер.md",
+    "TaskNotes/Views/kanban-default.base",
+    "PersonalTracker/notes/Записать к зубному.md",
     "Repos/ProfitMatrix/Untitled.canvas"
   ]
 }
