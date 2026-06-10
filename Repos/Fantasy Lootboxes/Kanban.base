@@ -43,27 +43,26 @@ formulas:
   dueDateDisplay: if(!due, "", if(date(due).date() == today(), "Today", if(date(due).date() == today() + "1d", "Tomorrow", if(date(due).date() == today() - "1d", "Yesterday", if(date(due) < today(), formula.daysUntilDue * -1 + "d ago", if(date(due).date() <= today() + "7d", date(due).format("ddd"), date(due).format("MMM D")))))))
 views:
   - type: tasknotesKanban
-    name: Kanban Board
+    name: Coding Board
     filters:
       and:
-        - file.inFolder("Work")
-        - '!file.tags.contains("archived")'
+        - file.inFolder("Repos/Fantasy Lootboxes")
+        - '!file.tags.contains("marketing")'
     groupBy:
       property: status
       direction: ASC
     order:
       - status
-      - priority
-      - due
       - scheduled
       - projects
       - contexts
-      - file.tags
-      - blockedBy
-      - file.name
       - recurrence
       - complete_instances
       - file.tasks
+      - priority
+      - due
+      - blockedBy
+      - timeEstimate
     sort:
       - property: tasknotes_manual_order
         direction: DESC
@@ -72,66 +71,26 @@ views:
       hideEmptyColumns: false
     columnOrder: '{"note.status":["open","in-progress","done","none"]}'
   - type: tasknotesKanban
-    name: Archived
+    name: Marketin Board
     filters:
       and:
-        - file.inFolder("Work")
-        - file.tags.containsAny("archived")
-    groupBy:
-      property: status
-      direction: ASC
-    columnOrder: '{"note.status":["open","in-progress","done","none"]}'
-  - type: tasknotesKanban
-    name: Timetrack
-    filters:
-      and:
-        - file.inFolder("Work")
-        - file.tags.contains("timetrack")
+        - file.inFolder("Repos/Fantasy Lootboxes")
+        - file.tags.contains("marketing")
     groupBy:
       property: status
       direction: ASC
     order:
       - status
-      - priority
-      - due
       - scheduled
       - projects
       - contexts
-      - file.tags
-      - blockedBy
-      - file.name
       - recurrence
       - complete_instances
       - file.tasks
-    sort:
-      - property: tasknotes_manual_order
-        direction: DESC
-    options:
-      columnWidth: 280
-      hideEmptyColumns: false
-    columnOrder: '{"note.status":["in-progress","open","done","none"]}'
-  - type: tasknotesKanban
-    name: ControlApp
-    filters:
-      and:
-        - file.inFolder("Work")
-        - file.tags.contains("controlapp")
-    groupBy:
-      property: status
-      direction: ASC
-    order:
-      - status
       - priority
       - due
-      - scheduled
-      - projects
-      - contexts
-      - file.tags
       - blockedBy
-      - file.name
-      - recurrence
-      - complete_instances
-      - file.tasks
+      - timeEstimate
     sort:
       - property: tasknotes_manual_order
         direction: DESC
@@ -140,28 +99,27 @@ views:
       hideEmptyColumns: false
     columnOrder: '{"note.status":["open","in-progress","done","none"]}'
   - type: tasknotesKanban
-    name: Transinet
+    name: Telegram Milestone
     filters:
       and:
-        - file.inFolder("Work")
-        - '!file.tags.contains("archived")'
-        - file.tags.contains("transinet")
+        - file.inFolder("Repos/Fantasy Lootboxes")
+        - '!file.tags.contains("marketing")'
+        - file.tags.contains("telegram")
     groupBy:
       property: status
       direction: ASC
     order:
       - status
-      - priority
-      - due
       - scheduled
       - projects
       - contexts
-      - file.tags
-      - blockedBy
-      - file.name
       - recurrence
       - complete_instances
       - file.tasks
+      - priority
+      - due
+      - blockedBy
+      - timeEstimate
     sort:
       - property: tasknotes_manual_order
         direction: DESC
