@@ -135,8 +135,8 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
             }
           },
           {
@@ -180,7 +180,7 @@
             }
           },
           {
-            "id": "6a6147d85cdc553d",
+            "id": "656a0f6c3069e227",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -297,22 +297,23 @@
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-kanban:Create new board": false,
-      "tasknotes:Open mini calendar view": true,
-      "tasknotes:Open calendar view": true,
-      "tasknotes:Open tasks view": true,
-      "tasknotes:Open agenda view": true,
-      "tasknotes:Open Kanban board": true,
+      "tasknotes:Open mini calendar view": false,
+      "tasknotes:Open calendar view": false,
+      "tasknotes:Open tasks view": false,
+      "tasknotes:Open agenda view": false,
+      "tasknotes:Open Kanban board": false,
       "tasknotes:Open Pomodoro timer": false,
       "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": true,
+      "tasknotes:Create new task": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
       "zettelflow:Create a new Zettel Note": false,
-      "notebook-navigator:Notebook Navigator": true
+      "notebook-navigator:Notebook Navigator": false
     }
   },
   "active": "ae05d93af733c5c5",
   "lastOpenFiles": [
+    "Repos/Fantasy Lootboxes/tasks/Change title from pixelvault to another.md",
     "Work/notes/WorkChecklist.md",
     "Repos/Fantasy Lootboxes/tasks/tasks.md",
     "Work/Work Kanban.base",
