@@ -9,5 +9,5 @@ git add .
 git commit -m "autoupdate"
 
 # 3. Pull latest changes, then push your updates
-git pull
+git pull --ff -X theirs
 git push
