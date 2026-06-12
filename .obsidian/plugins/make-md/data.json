@@ -44,7 +44,8 @@
     "//Repos",
     "//Repos/Repos/Fantasy Lootboxes",
     "//Repos/Repos/Fantasy Lootboxes/Repos/Fantasy Lootboxes/tasks",
-    "//Work/Work/notes"
+    "//Work/Work/notes",
+    "//Repos/Repos/Prompts"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
